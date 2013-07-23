@@ -7,6 +7,8 @@ gem 'rails', '4.0.0'
 
 gem 'bootstrap-sass', '2.3.2.0'
 
+gem 'bcrypt-ruby', '3.0.1'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
 
@@ -38,6 +40,7 @@ end
 
 group :development do
   gem 'rspec-rails', '2.13.1'
+  gem 'hirb'
 end
 
 group :test do
