@@ -9,6 +9,8 @@ gem 'bootstrap-sass', '2.3.2.0'
 
 gem 'bcrypt-ruby', '3.0.1'
 
+gem 'bootstrap-will_paginate', '0.0.9'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
 
